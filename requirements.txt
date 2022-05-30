@@ -1,0 +1,6 @@
+elasticsearch==8.2.0
+pandas==1.4.2
+Pillow==9.1.1
+sentence_transformers==2.2.0
+streamlit==1.9.2
+tqdm==4.64.0
