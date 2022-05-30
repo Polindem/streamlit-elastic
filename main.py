@@ -1,3 +1,4 @@
+import requirements.txt
 from sentence_transformers import SentenceTransformer, util
 from elasticsearch import Elasticsearch, helpers
 import streamlit as st
