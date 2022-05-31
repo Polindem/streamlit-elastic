@@ -6,7 +6,7 @@ from PIL import Image
 
 #@st.cache(allow_output_mutation=True)
 
-es = Elasticsearch(['https://localhost:9200'],ca_certs=False, verify_certs=False, http_auth=('elastic', 'g7w=Rtt3UGi02ABWUJAW'))
+es = Elasticsearch(['https://localhost:9200'],ca_certs=False, verify_certs=False, basic_auth=('elastic', 'polina1518'))
 model = SentenceTransformer('multi-qa-MiniLM-L6-cos-v1')
 #('multi-qa-distilbert-dot-v1')
 
